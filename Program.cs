@@ -8,6 +8,7 @@ namespace AbstractExample
         private static void Main(string[] args)
         {
             Console.WriteLine("Which animal do you want to hear?");
+            Console.WriteLine("1 - Pig \n2 - Turtle");
             var choice = Console.ReadLine();
 
             Animal animal = null;
